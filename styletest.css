@@ -1,0 +1,81 @@
+header img {
+    height: 80px;
+    margin-left: 20px;
+}
+body { 
+    background: url(Screenshots/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+#intro {
+    color: red;
+    text-shadow: 3px 2px black;
+    text-align: center;
+}
+.font1 {
+    color: white;
+    text-shadow: 3px 2px rgb(12, 8, 255);
+}
+h1 {
+    font-size: 5em
+}
+h2 {
+    font-size: 3em
+}
+h3 {
+    font-size: 2em
+}
+p {
+    font-size: 1.5em
+}
+header {
+    background-color: rgb(7, 203, 252);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+header * {
+    display: inline;
+}
+header li {
+    margin: 20px;
+}
+header li a {
+    color: black;
+    text-decoration: none;
+}
+.center {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(62, 45, 160);
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: red;
+  }
+  .active {
+    background-color: #4CAF50;
+  }
