@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap'); /* font-family: 'Saira Stencil One', cursive; */
 * {padding: 0; margin: 0;}
 
 .flex-container  {
@@ -20,12 +21,14 @@
     height: 80px;
 }
     .logo a {
-      color: rgb(28, 24, 22);
+      color: rgb(255, 0, 0);
     }
 
     .logo, .navigation {
         list-style: none;
         text-transform: uppercase;
+        font-family: 'Saira Stencil One', cursive;
+        margin-right: 20px;
     }
 
     .logo a, .navigation a {
@@ -40,11 +43,19 @@
 .navigation a {
   display: block;
   padding: 1em;
-  color: white;
+  color: rgb(33, 255, 4);
+  text-shadow: 3px 2px black;
+  text-align: center;
+  font-size: 90%;
+  
 }
 
-.navigation a:hover {
-    background: #00ace6;
+.navigation a:hover:not(.active) {
+    background: rgba(38, 161, 8, 0.548);
+}
+
+.active {
+  background-color: rgba(252, 252, 5, 0.653);
 }
 
 /* *********** media queries *********** */
@@ -86,4 +97,135 @@
   .navigation li:last-of-type a {
     border-bottom: none;
   }
+}
+.body { 
+  background: url(Screenshots/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Aldrich', sans-serif;
+  margin-top: auto;
+  padding: 0;
+}
+.body1 { 
+  background: url(Screenshots/matrix.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Aldrich', sans-serif;
+  margin-top: auto;
+  padding: 0;
+}
+
+#intro {
+  color: red;
+  text-shadow: 3px 2px black;
+  text-align: center;
+  font-family: 'Saira Stencil One', cursive;
+}
+.font1 {
+  color: white;
+  text-shadow: 3px 2px rgb(12, 8, 255);
+}
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 1.75em;
+}
+p {
+  font-size: 1.5em;
+}
+.intro1 {
+  color: red;
+  text-shadow: 3px 2px black;
+  text-align: center;
+  font-family: 'Saira Stencil One', cursive;
+}
+.font2 {
+  font-size: 1em;
+  font-family: 'Saira Stencil One', cursive;
+  color: rgb(252, 252, 4);
+  text-shadow: 3px 2px rgb(0, 0, 0);
+}
+.font3 {
+  color: rgb(81, 205, 19);
+  text-shadow: 3px 2px black;
+  font-family: 'Saira Stencil One', cursive;
+}
+.font4 {
+   color: rgb(238, 88, 238);
+   text-shadow: 3px 2px rgb(46, 24, 124);
+   font-family: 'Righteous', cursive;
+}
+.font5 {
+  color: rgb(81, 205, 19);
+  text-shadow: 3px 2px rgb(13, 60, 1);
+  font-family: 'Shojumaru', cursive;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  justify-content: center;
+  align-content: center;
+}
+.container2 {
+  display: flex;
+  flex-flow: column wrap;
+  flex-grow: 1;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.5em;
+}
+.box1 {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+}
+.box2 {
+  width: 560px;
+  height: 315px;
+  margin: auto;
+}
+
+img {
+   max-width:100%;
+  height:auto;
+}
+.img1 {
+  display: block;
+max-width:1080px;
+max-height:518px;
+width: auto;
+height: auto;
+margin-left: -50px;
+}
+.refimg {
+  max-width:30px;
+  max-height:30px;
+  width: auto;
+  height: auto;
+  margin-left: 0px;
+}
+.enter {
+  max-width:350px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+}
+
+.margin {
+  box-sizing: border-box;
+  padding: 0px 50px 0px;
+  margin: 0;
+}
+
+.padding {
+  padding-top: 50px;
 }
