@@ -259,5 +259,12 @@ margin-left: 0px;
 .padding1 {
   padding-top: 300px;
 }
+.center {
+  text-align: center;
+}
+
+.index {
+  font-size: 4em;
+}
 
 
