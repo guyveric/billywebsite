@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap'); /* font-family: 'Saira Stencil One', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap'); /* font-family: 'Indie Flower', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap'); /* font-family: 'Righteous', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap'); /* font-family: 'Baloo Chettan', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Aldrich&display=swap'); /* font-family: 'Aldrich', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Ceviche+One&display=swap');/* font-family: 'Ceviche One', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Shojumaru&display=swap'); /* font-family: 'Shojumaru', cursive; */
 * {padding: 0; margin: 0;}
 
 .flex-container  {
@@ -149,6 +155,7 @@ h3 {
 p {
   font-size: 1.5em;
 }
+
 .intro1 {
   color: red;
   text-shadow: 3px 2px black;
@@ -175,6 +182,11 @@ p {
   color: rgb(81, 205, 19);
   text-shadow: 3px 2px rgb(13, 60, 1);
   font-family: 'Shojumaru', cursive;
+}
+.font6 {
+  color: rgb(81, 205, 19);
+  text-shadow: 3px 2px rgb(1, 2, 52);
+  font-family: 'Righteous', cursive; 
 }
 .container {
   display: flex;
@@ -231,6 +243,12 @@ margin-left: 0px;
 .margin {
   box-sizing: border-box;
   padding: 0px 100px 0px;
+  margin: 0;
+}
+
+.margin1 {
+  box-sizing: border-box;
+  padding: 0px 150px 0px;
   margin: 0;
 }
 
